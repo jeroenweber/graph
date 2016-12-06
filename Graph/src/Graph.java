@@ -20,4 +20,8 @@ public class Graph {
 			graph[start].setNext(name);
 	}
 
+	public String toString()
+	{
+		return "Graph";
+	}
 }
